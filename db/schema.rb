@@ -34,4 +34,4 @@ ActiveRecord::Schema.define(version: 20161012133948) do
   end
 
   add_foreign_key "comments", "photos"
-  end
+end
